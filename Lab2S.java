@@ -183,7 +183,6 @@ public class Lab2S
 		while(iter < array.length)
 		{
 			int d = (int) (left + (right - left) * (number - array[(int) left]) / (array[(int) right] - array[(int) left]));
-			//System.out.println(d);
 			if(array[d] == number)
 			{
 				index = d;
